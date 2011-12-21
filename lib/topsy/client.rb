@@ -86,7 +86,7 @@ module Topsy
       else
         q += " site:#{options.delete(:site)}" if options[:site]
       end
-      options[:window] = @@windows[options[:window]] if options[:window]
+      # options[:window] = @@windows[options[:window]] if options[:window]
       results = handle_response(self.class.get("/search.json", :query => {:q => q}.merge(options)))
       Topsy::Page.new(results,Topsy::LinkSearchResult)
     end
