@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     topsy (0.3.6)
-      hashie (~> 1.1.0)
+      hashie (~> 1.0.0)
       httparty (>= 0.4.5)
 
 GEM
@@ -10,7 +10,7 @@ GEM
   specs:
     crack (0.1.8)
     fakeweb (1.3.0)
-    hashie (1.1.0)
+    hashie (1.0.0)
     httparty (0.6.1)
       crack (= 0.1.8)
     jnunemaker-matchy (0.4.0)
